@@ -34,5 +34,5 @@ def AtCoderContestsMakeFile(input_path: str, contest_genre: int, contest_number:
 input_path = input_path.input_path
 # 0 -> ABC,  1 -> ARC,  2 -> AGC,  3 -> PAST
 # コンテスト名・第⚪️回   ※ 下記の場合だと ARC001~ARC500回まで作成します
-for i in range(1000, 1001):
+for i in range(1, 501):
     AtCoderContestsMakeFile(input_path, 1, str(i).zfill(3))
