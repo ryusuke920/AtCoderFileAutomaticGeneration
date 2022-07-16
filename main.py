@@ -36,6 +36,7 @@ def AtCoderContestsMakeFile(input_path: str, contest_genre: int, contest_number:
 
         attention = "※test/ が既に作成されている場合は下記コマンドで test/ を削除する\n" \
                     "rm -rf test/\n"
+
         flow = "oj（online-judge-tools）の使い方について\n\n" \
                "1. テストケースをダウンロード\n" \
                "2. サンプルが合っているかジャッジする\n" \
